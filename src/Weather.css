@@ -24,16 +24,14 @@
   list-style: none;
 }
 
-.Weather img {
-  height: 64px;
-  width: 64px;
+.Weather canvas {
   margin-right: 10px;
   display: inline-block;
 }
 .Weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 40px;
+  font-size: 64px;
   line-height: 64px;
   font-weight: 400;
 }
@@ -43,5 +41,5 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -18px;
+  top: -34px;
 }
